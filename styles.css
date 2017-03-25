@@ -1,0 +1,59 @@
+h1{
+  color:#0000FF;
+  font-family: Georgia , Times new roman, serif;
+  }
+  
+  
+  
+body {
+    background-repeat:repeat;
+    background-position: center;
+    background-image:center;
+    background-attachment : fixed;
+    background-image:url("images/lock.jpg");
+    position: absolute;
+    background-color: lightblue;
+    background-image: -o-linear-gradient(#C0C0C0,#4169E1);
+    height: 150px;
+    
+    background-repeat:cover,no-repeat;
+  
+    background-position:center;
+  }
+  
+img {
+  border-radius: 10px;
+ -webkit-box-shadow: 7px 7px 7px #0088dd;
+ display:inline-block;
+ max-width:250px;
+ }
+  h1 {
+  
+  
+  border:solid;
+  color:#0000FF;
+  font-family: Georgia , Times new roman, serif;
+  font-size: 300%;
+  text-align: center;
+  line-height:1.5em
+  padding:10px;
+  
+  
+  }
+  p {
+
+    
+    text-align:center;
+    border:solid;
+    color:#0000FF;
+    min-height:10px;
+    text-indent:50px;
+    font-family:Arial, Verdana, sans-serif;
+    font-size: 100%;
+    padding-right:80px;
+    padding-left:60px;}
+    
+  
+  
+
+ 
