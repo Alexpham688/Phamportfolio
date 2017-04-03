@@ -8,18 +8,32 @@
       <h1>Alex Contact Page</h1>
       <fieldset>
         <legend>Contact Details</legend>
-        <label>Email</label>
+        <label>Email:</br>
         <input type="text" name="email"/></label><br/>
-        <label>Mobile</label>
+        <label>Mobile:</br>
         <input type="text" name="mobile"/></label></br>
-        
-      </fieldset>
+    
+        </fieldset>
+      
+     
       <form>
-       <input type="submit" value="Submit"/>
+      <textarea name="comments" cols"30" rows="5">
+      Enter your comments...</textarea>
       </form>
+     
       
+       <h2 id="demo">Please submit after entering contact info...</h2>
+
+
+     
+       <button onclick="myFunction()">Submit</button>
+    
       
-      
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "THANK YOU COME AGAIN!!!!";
+}
+</script> 
       
       
     </body>

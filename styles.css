@@ -2,7 +2,22 @@ h1{
   color:#0000FF;
   font-family: Georgia , Times new roman, serif;
   }
-  
+ blockquote { 
+ font-style:italic;
+ font-family: Georgia, Times new roman. serif;
+ color:red;
+ float:right;
+ width: 200px;
+ font-size:180%;
+ margin: 0px 0px 20px 20pxpx;
+ padding:10px
+ border-top:3px solid #0000FF;
+ border-bottom:3px solid #0000FF;
+ }
+ label {
+ text-indent:20px;
+ }
+ 
   
   
 body {
@@ -18,14 +33,22 @@ body {
     
     background-repeat:cover,no-repeat;
   
-    background-position:center;
+    background-position:center; 
+    }
+    
+    .comment_div {
+    background: white;
+    width: 250px;
+    padding: 10px;
+    display:block;
+    
   }
   
 img {
   border-radius: 10px;
  -webkit-box-shadow: 7px 7px 7px #0088dd;
  display:inline-block;
- max-width:250px;
+ max-width:180px;
  }
   h1 {
   
@@ -39,6 +62,13 @@ img {
   padding:10px;
   
   
+  }
+  h2 {
+  font-family:Times new roman, times, serif;
+  color:0000FF;
+  border-top:3px solid #0000FF;
+  border-bottom: 3px solid #0000FF;
+  padding:10;
   }
   p {
 
